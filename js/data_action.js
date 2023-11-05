@@ -53,7 +53,7 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
+        title: "Run",
         icon: "sprint",
         subtitle: "Double movement speed",
         description: "Gain extra movement for the current turn",
