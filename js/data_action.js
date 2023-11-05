@@ -144,7 +144,7 @@ data_action = [
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "",
+        subtitle: "Search for something",
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
