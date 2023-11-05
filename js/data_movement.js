@@ -68,7 +68,7 @@ data_movement = [
     {
         title: "High jump",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
+        subtitle: "Height: 3 + Strenght Modifier",
         description: "Movement cost: 5ft per 5ft jumped",
         
         reference: "PHB, pg. 182.",
@@ -82,7 +82,7 @@ data_movement = [
     {
         title: "Long jump",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
+        subtitle: "Distance: Strenght ability score",
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 182.",
         bullets: [
