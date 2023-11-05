@@ -34,7 +34,7 @@ data_condition = [
     },
     {
         title: "Exhaustion",
-        icon: "crawl",
+        icon: "despair",
         subtitle: "You are exhausted",
         description: "Exhaustion is measured in six levels",
         reference: "PHB, pg. 291.",
@@ -115,6 +115,22 @@ data_condition = [
             "You automatically fail Strength and Dexterity saving throws.",
             "You have resistance to all damage.",
             "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+        ]
+    },
+    {
+        title: "Drunk",
+        icon: "beer-stein",
+        subtitle: "You are drunk",
+        description: "List of penalties suffered for excessive drinking",
+        reference: "Drinking & Intoxication - GM Binder",
+        bullets: [
+            "After the sum of the Drunken Points from the drinks the player has consumed, since their last long rest, reaches their threshold (Constitution ability score + 1), they gain this status.",
+            "For each drink consumed while Drunk, the player must make a Constitution Saving Throw of DC 8 + drink strength + exhaustion level. Failure results in falling unconscious for 1d4 hours. Failing by 5 or more results in gaining a Level of Exhaustion.",
+            "At threshold: +3 Charisma; -2 Intelligence.",
+            "2 Points over Threshold: +5 Charisma; -3 Intelligence; -3 Wisdom; -1 on attack rolls.",
+            "2 Points over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls.",
+            "Two Times over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls; +3 Strength; Advantage on saving throws made against fear; 5 temporary hit points.",
+            "Two Times over Threshold + 10: For each drink consumed, the player must make a DC 16 Constitution Saving Throw. Failure inflicts the player with Alcohol Poisoning, taking 1d6 Poison Damage every half hour. Alcohol poisoning can be cured using activated charcoal or cured until your intoxication points are reduced to below twice your Threshold."
         ]
     },
     {
