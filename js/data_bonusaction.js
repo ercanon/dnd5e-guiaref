@@ -13,6 +13,18 @@ data_bonusaction = [
         ]
     },
     {
+        title: "Shove",
+        icon: "hand",
+        subtitle: "Special melee attack",
+        description: "Shove a creature, either to knock it prone or push it away from you",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
+            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+        ]
+    },
+    {
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action",
