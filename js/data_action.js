@@ -175,7 +175,7 @@ data_action = [
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "Stabilize",
         icon: "first-aid",
         subtitle: "Administer first aid to a dying creature",
         description: "Stop a dying creature from needing to make death saving throws",
