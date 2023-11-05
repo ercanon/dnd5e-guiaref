@@ -70,17 +70,6 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
-        icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
-        ]
-    },
-    {
         title: "Equip Item",
         icon: "sword-spade",
         subtitle: "Equip or unequip an item",
@@ -124,7 +113,7 @@ data_action = [
         bullets: [
             "Make a Wisdom (Medicine) check with DC 10",
             "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "A stable creature regains 1 hit point"
         ]
     },
     {
