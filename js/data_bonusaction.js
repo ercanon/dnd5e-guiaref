@@ -13,6 +13,18 @@ data_bonusaction = [
         ]
     },
     {
+        title: "Punch Attack",
+        icon: "punch",
+        subtitle: "Use with the Attack action",
+        description: "Attack with your off hand",
+        reference: "PHB, pgs. 192,194-195.",
+        bullets: [
+            "Only usable if you take the <i>Attack</i> action and attack with a non heavy weapon that you're holding.",
+            "Perform a single attack with the unskilled fist.",
+            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
+        ]
+    },
+    {
         title: "Shove",
         icon: "hand",
         subtitle: "Special melee attack",
@@ -33,6 +45,16 @@ data_bonusaction = [
         bullets: [
             "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
             "For further details, see the <i>Cast a spell</i> action."
+        ]
+    },
+    {
+        title: "Use Object",
+        icon: "snatch",
+        subtitle: "Use object in inventory",
+        description: "Use an object from inventory or use its special abilities",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            
         ]
     },
     {
