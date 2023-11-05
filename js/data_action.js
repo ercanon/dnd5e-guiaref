@@ -1,16 +1,16 @@
 data_action = [
     {
-        title: "Ataque",
+        title: "Attack",
         icon: "crossed-swords",
-        subtitle: "Ataque a Melee / Rango",
-        description: "Realiza un ataque a melee o a rango con tu arma",
+        subtitle: "Melee or ranged attack",
+        description: "Perform a melee or ranged attack with your weapon",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Algunos rasgos, como el <i>Extra Ataque</i> de un guerrero, te permite realizar mas de un ataque mediante esta Acción. Cada ataque son lanzamientos distintos y pueden realizarse a diferentes criaturas. El jugador puede moverse entre estos ataques.",
-            "Atacando con una arma a melee ligera, el jugador puede usar su accion bonus para atacar con su otra mano (revisar la accion bonus <i>Ataque no diestro</i>).",
-            "Se permite reemplazar uno de los ataque a melee por una <i>Agarre</i> o <i>Empujar</i>.",
-            "Algunas condiciones otorgan ventaja: ataques a objetivos ciegos, paralizados, petrificados, retenidos, aturdidos o inconcientes; ataques contra objetivos tumbados; ataques siendo invisible o estando escondido.",
-            "Algunas condiciones otorgan desventaja: ataque contra objetivos invisibles o escondidos; ataques a rango contra objetivos tumbados; ataques estando cegado, asustado, envenenado o retenidos."
+            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
+            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
+            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
+            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
+            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
         ]
     },
     {
