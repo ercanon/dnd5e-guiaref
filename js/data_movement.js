@@ -123,7 +123,7 @@ data_movement = [
     {
         title: "Falling",
         icon: "falling",
-        subtitle: "Distance: 10ft 1d6 bludgeoning",
+        subtitle: "Distance: 1d6 bludgeoning per 10ft",
         description: "Get 1d6 bluedgeoning damage each 10ft fallen",
         reference: "PHB, p. 183",
         bullets: [
