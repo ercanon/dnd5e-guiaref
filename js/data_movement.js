@@ -34,7 +34,7 @@ data_movement = [
     },
     {
         title: "Drop prone",
-        icon: "lob_arrow",
+        icon: "lob-arrow",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
