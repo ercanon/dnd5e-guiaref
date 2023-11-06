@@ -34,7 +34,7 @@ data_movement = [
     },
     {
         title: "Drop prone",
-        icon: "falling",
+        icon: "lob_arrow",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
@@ -119,5 +119,17 @@ data_movement = [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
         ]
-    }
+    },
+    {
+        title: "Falling",
+        icon: "falling",
+        subtitle: "Distance: 10ft 1d6 bludgeoning",
+        description: "Get 1d6 bluedgeoning damage each 10ft fallen",
+        reference: "PHB, p. 183",
+        bullets: [
+            "At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell", 
+            "The maximum damage of a fall is 20d6 bludgeonin.",
+            "The creature lands prone, unless it avoids taking damage from the fall."
+        ]
+    },
 ]
