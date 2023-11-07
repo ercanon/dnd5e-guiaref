@@ -126,6 +126,7 @@ data_condition = [
         bullets: [
             "After the sum of the Drunken Points from the drinks the player has consumed, since their last long rest, reaches their threshold (Constitution ability score + 1), they gain this status.",
             "For each drink consumed while Drunk, the player must make a Constitution Saving Throw of DC 8 + drink strength + exhaustion level. Failure results in falling unconscious for 1d4 hours. Failing by 5 or more results in gaining a Level of Exhaustion.",
+            "Any action that heals a player, take the amount of health restored and lose half as many Intoxication Points. After a short rest, a player loses five Intoxication points. After a long rest, Intoxication Points are reset completely.",
             "At threshold: +3 Charisma; -2 Intelligence.",
             "2 Points over Threshold: +5 Charisma; -3 Intelligence; -3 Wisdom; -1 on attack rolls.",
             "2 Points over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls.",
