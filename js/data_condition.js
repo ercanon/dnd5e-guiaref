@@ -24,7 +24,7 @@ data_condition = [
     },
     {
         title: "Deafened",
-        icon: "elf-ear",
+        icon: "deafened",
         subtitle: "You can't hear",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
@@ -92,7 +92,7 @@ data_condition = [
     },
     {
         title: "Paralyzed",
-        icon: "nailed-foot",
+        icon: "thunder-struck",
         subtitle: "You are paralyzed",
         description: "You can't do anything",
         bullets: [
@@ -171,7 +171,7 @@ data_condition = [
     },
     {
         title: "Stunned",
-        icon: "thunder-struck",
+        icon: "stunned",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
