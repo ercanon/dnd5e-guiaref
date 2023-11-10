@@ -24,7 +24,7 @@ data_action = [
             "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
             "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
             "If you succeed, you subject the target to the grappled condition (its speed is set to 0).",
-            "The grappled target con be attacked with the <i>Offhand Attack</i> bonus action."
+            "The grappled target can be attacked with the <i>Offhand Attack</i> bonus action."
         ]
     },
     {

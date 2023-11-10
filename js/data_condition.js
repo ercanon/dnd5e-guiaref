@@ -129,7 +129,7 @@ data_condition = [
             "Any action that heals a player, take the amount of health restored and lose half as many Intoxication Points. After a short rest, a player loses five Intoxication points. After a long rest, Intoxication Points are reset completely.",
             "At threshold: +3 Charisma; -2 Intelligence.",
             "2 Points over Threshold: +5 Charisma; -3 Intelligence; -3 Wisdom; -1 on attack rolls.",
-            "2 Points over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls.",
+            "5 Points over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls.",
             "Two Times over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls; +3 Strength; Advantage on saving throws made against fear; 5 temporary hit points.",
             "Two Times over Threshold + 10: For each drink consumed, the player must make a DC 16 Constitution Saving Throw. Failure inflicts the player with Alcohol Poisoning, taking 1d6 Poison Damage every half hour. Alcohol poisoning can be cured using activated charcoal or cured until your intoxication points are reduced to below twice your Threshold."
         ]
