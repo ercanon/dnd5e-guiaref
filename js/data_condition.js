@@ -47,7 +47,7 @@ data_condition = [
     },
     {
         title: "Frightened",
-        icon: "sharp-smile",
+        icon: "screaming",
         subtitle: "You are frightened",
         description: "You are frightened",
         reference: "PHB, pg. 290.",
@@ -70,7 +70,7 @@ data_condition = [
     },
     {
         title: "Incapacitated",
-        icon: "internal-injury",
+        icon: "sword-clash",
         subtitle: "You can't take actions or reactions",
         description: "You can't take actions or reactions",
         reference: "PHB, pg. 290.",
@@ -92,7 +92,7 @@ data_condition = [
     },
     {
         title: "Paralyzed",
-        icon: "internal-injury",
+        icon: "nailed-foot",
         subtitle: "You are paralyzed",
         description: "You can't do anything",
         bullets: [
@@ -171,7 +171,7 @@ data_condition = [
     },
     {
         title: "Stunned",
-        icon: "internal-injury",
+        icon: "thunder-struck",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
@@ -211,7 +211,7 @@ data_condition = [
             "Rolling a 1 counts as two failures.",
             "Rolling a 20 immediately causes you to regain 1 hit point.",
             "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Once stable, you regain 1 hit point."
         ]
     }
 ]
