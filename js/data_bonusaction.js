@@ -14,11 +14,11 @@ data_bonusaction = [
     {
         title: "Punch Attack",
         icon: "punch",
-        subtitle: "Use with the Attack action",
+        subtitle: "Damage: 1 + Strenght Modifier",
         description: "Attack with your off hand",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a non heavy weapon that you're holding.",
+            "Only usable if you are not holding a heavy weapon.",
             "Perform a single attack with the unskilled fist.",
             "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
         ]
