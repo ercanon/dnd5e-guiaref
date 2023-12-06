@@ -18,7 +18,7 @@ data_bonusaction = [
         description: "Attack with your off hand",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you are not holding a heavy weapon.",
+            "Only usable if you are not holding a heavy weapon or shield.",
             "Perform a single attack with the unskilled fist.",
             "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
         ]
