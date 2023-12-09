@@ -8,7 +8,8 @@ data_movement = [
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
             "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
+            "You can move through a standing hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
+            "Another creature's space is difficult terrain for you, except if it's Medium size or smaller and is proned or dead",
             "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
         ]
     },
@@ -103,7 +104,7 @@ data_movement = [
     {
         title: "Difficult terrain",
         icon: "stone-pile",
-        subtitle: "Cost: 10ft per 5ft",
+        subtitle: "Cost: +5ft per 5ft",
         reference: "PHB, pg. 182.",
         description: "Movement cost: 10ft per 5ft moved",
         bullets: [
@@ -121,14 +122,14 @@ data_movement = [
         ]
     },
     {
-        title: "Falling",
+        title: "Fall",
         icon: "falling",
         subtitle: "Distance: 1d6 bludgeoning per 10ft",
         description: "Get 1d6 bluedgeoning damage each 10ft fallen",
         reference: "PHB, p. 183",
         bullets: [
             "At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell", 
-            "The maximum damage of a fall is 20d6 bludgeonin.",
+            "The maximum damage of a fall is 20d6 bludgeoning.",
             "The creature lands prone, unless it avoids taking damage from the fall."
         ]
     },
