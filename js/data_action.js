@@ -28,14 +28,14 @@ data_action = [
         ]
     },
     {
-        title: "Nonlethal",
+        title: "Non-Lethal",
         icon: "sleepy",
         subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "PHB, pg. 195.",
+        description: "Subject a creature into unconciousness instead of killing it",
+        reference: "PHB, pg. 196.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a nonlethal attack. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "Dropping the target to 0 helth points with a nonlethal attack, you subject it to the unconscious condition."
+            "You can use the <i>Attack</i> action to make a special melee attack, a non-lethal attack. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "Dropping the target to 0 health points with a non-lethal attack, you subject it to the unconscious condition."
         ]
     },
     {
@@ -99,7 +99,7 @@ data_action = [
         description: "Equip or unequip an item",
         reference: "PHB, pgs. 144-146.",
         bullets: [
-            "An item always takes an action to equip or unequip.",
+            "An item always takes an action to equip.",
             "Armor takes several minutes to equip or unequip."
         ]
     },
@@ -136,7 +136,7 @@ data_action = [
         bullets: [
             "Make a Wisdom (Medicine) check with DC 10",
             "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point"
+            "A stable creature regains 1 hit point and stays prone"
         ]
     },
     {
