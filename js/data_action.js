@@ -7,9 +7,21 @@ data_action = [
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or <i>NonLethal</i>.",
+            "You may replace one of your melee attacks with a <i>Throw</i>, <i>Grapple</i> or <i>NonLethal</i>.",
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
             "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+        ]
+    },
+    {
+        title: "Throw",
+        icon: "thrown-spear",
+        subtitle: "Special melee attack",
+        description: "Throw an equipped weapon or close item.",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "You can use the <i>Attack</i> action to make a special melee attack, a throwing. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "Throw a equipped weapon with the thrown property to make a ranged attack, weapons that doesn't have the property deals 1d4 damage.",
+            "You can pick a near item to throw it, making an improvised weapon ranged attack, dealing 1d4 damage."
         ]
     },
     {
@@ -23,7 +35,6 @@ data_action = [
             "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
             "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
             "If you succeed, you subject the target to the grappled condition (its speed is set to 0).",
-            "The grappled target can be attacked with the <i>Offhand Attack</i> bonus action."
         ]
     },
     {
@@ -99,7 +110,10 @@ data_action = [
         reference: "PHB, pgs. 144-146.",
         bullets: [
             "An item always takes an action to equip.",
-            "Armor takes several minutes to equip or unequip."
+            "Armor takes several minutes to equip or unequip.",
+            "Equip a nearby item to have an improvised weapon, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.",
+            "Often, an improvised weapon is similar to an actual weapon and can be treated as such.",
+            "An object that bears no resemblance to a weapon deals 1d4 damage."
         ]
     },
     {
