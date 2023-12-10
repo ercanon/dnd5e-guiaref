@@ -1,4 +1,17 @@
-data_bonusaction = [
+data_bonusaction = [    
+    {
+        title: "Punch Attack",
+        icon: "punch",
+        subtitle: "Damage: 1 + Strenght Modifier",
+        description: "Attack with your off hand",
+        reference: "PHB, pgs. 195.",
+        bullets: [
+            "Only usable if you are not holding a heavy weapon or shield.",
+            "It is replaced by <i>Offhand Attack</i> if you're holding another light melee weapon."
+            "Perform a single attack with a fist.",
+            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
+        ]
+    },
     {
         title: "Offhand Attack",
         icon: "crossed-swords",
@@ -6,21 +19,9 @@ data_bonusaction = [
         description: "Attack with your off hand",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
+            "Only usable if you're holding a light melee weapon in your second hand.",
             "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
             "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative."
-        ]
-    },
-    {
-        title: "Punch Attack",
-        icon: "punch",
-        subtitle: "Damage: 1 + Strenght Modifier",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
-        bullets: [
-            "Only usable if you are not holding a heavy weapon or shield.",
-            "Perform a single attack with the unskilled fist.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
         ]
     },
     {
