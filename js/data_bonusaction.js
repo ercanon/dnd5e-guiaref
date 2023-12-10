@@ -3,20 +3,19 @@ data_bonusaction = [
         title: "Punch Attack",
         icon: "punch",
         subtitle: "Damage: 1 + Strenght Modifier",
-        description: "Attack with your off hand",
+        description: "Attack with your fist",
         reference: "PHB, pgs. 195.",
         bullets: [
             "Only usable if you are not holding a heavy weapon or shield.",
-            "It is replaced by <i>Offhand Attack</i> if you're holding another light melee weapon."
-            "Perform a single attack with a fist.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
+            "It is replaced by <i>Offhand Attack</i> if you're holding another light melee weapon.",
+            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative."
         ]
     },
     {
         title: "Offhand Attack",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Melee Attack without ability modifier to the damage",
+        description: "Attack with your offhand",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable if you're holding a light melee weapon in your second hand.",
