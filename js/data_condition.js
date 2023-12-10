@@ -127,12 +127,9 @@ data_condition = [
             "After the sum of the Drunken Points from the drinks the player has consumed, since their last long rest, reaches their threshold (Constitution ability score + 1), they gain this status.",
             "For each drink consumed while Drunk, the player must make a Constitution Saving Throw of DC 8 + drink strength + exhaustion level. Failure results in falling unconscious for 1d4 hours. Failing by 5 or more results in gaining a Level of Exhaustion.",
             "Any action that heals a player, take the amount of health restored and lose half as many Intoxication Points. After a short rest, a player loses five Intoxication points. After a long rest, Intoxication Points are reset completely.",
-            "At threshold: +3 Charisma; -2 Intelligence.",
-            "2 Points over Threshold: +5 Charisma; -3 Intelligence; -3 Wisdom; -1 on attack rolls.",
-            "5 Points over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls.",
-            "Two Times over Threshold: +5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls; +3 Strength; Advantage on saving throws made against fear; 5 temporary hit points.",
-            "Two Times over Threshold + 10: For each drink consumed, the player must make a DC 16 Constitution Saving Throw. Failure inflicts the player with Alcohol Poisoning, taking 1d6 Poison Damage every half hour. Alcohol poisoning can be cured using activated charcoal or cured until your intoxication points are reduced to below twice your Threshold."
-        ]
+            "<table><tr><th>Over threshold</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>0 points</td><td></td><td></td><td>+3 Charisma; -2 Intelligence</td></tr><tr><td>2 points</td><td></td><td></td><td>+5 Charisma; -3 Intelligence; -3 Wisdom; -1 on attack rolls</td></tr><tr><td>5 points</td><td></td><td></td><td>+5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls</td></tr><tr><td>2 times</td><td></td><td></td><td>+5 Charisma; Disadvantage on Intelligence; Disadvantage on Wisdom; -3 on attack rolls; +3 Strength; Advantage on saving throws made against fear; 5 temporary hit points</td></tr><tr><td>2 times + 10 points</td><td></td><td></td><td>For each drink consumed, the player must make a DC 16 Constitution Saving Throw. Failure inflicts the player with Alcohol Poisoning, taking 1d6 Poison Damage every half hour</td></tr></table>",
+            "Alcohol poisoning can be cured using activated charcoal or cured until your intoxication points are reduced to below twice your Threshold."
+            ]
     },
     {
         title: "Poisoned",
@@ -202,7 +199,7 @@ data_condition = [
         description: "You have been dropped to zero hit points and are dying",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
+            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious, prone and are dying.",
             "If you receive any healing you immediately regain consciousness again and no longer dying.",
             "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
             "A 10 or higher is a success, 9 or lower is a failure.",
