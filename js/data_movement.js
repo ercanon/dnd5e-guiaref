@@ -35,7 +35,7 @@ data_movement = [
     },
     {
         title: "Drop prone",
-        icon: "lob-arrow",
+        icon: "prone",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
@@ -67,7 +67,7 @@ data_movement = [
     },
     {
         title: "High jump",
-        icon: "wingfoot",
+        icon: "jump-high",
         subtitle: "Height: 3 + Strenght Modifier",
         description: "Movement cost: 5ft per 5ft jumped",
         
@@ -81,7 +81,7 @@ data_movement = [
     },
     {
         title: "Long jump",
-        icon: "wingfoot",
+        icon: "jump-across",
         subtitle: "Distance: Strenght ability score",
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 182.",

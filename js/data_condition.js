@@ -1,7 +1,7 @@
 data_condition = [
     {
         title: "Blinded",
-        icon: "one-eyed",
+        icon: "sight-disabled",
         subtitle: "You can't see",
         description: "You can't see",
         reference: "PHB, pg. 290.",
@@ -24,7 +24,7 @@ data_condition = [
     },
     {
         title: "Deafened",
-        icon: "deafened",
+        icon: "hearing-disabled",
         subtitle: "You can't hear",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
@@ -70,7 +70,7 @@ data_condition = [
     },
     {
         title: "Incapacitated",
-        icon: "sword-clash",
+        icon: "cut-palm",
         subtitle: "You can't take actions or reactions",
         description: "You can't take actions or reactions",
         reference: "PHB, pg. 290.",
@@ -133,7 +133,7 @@ data_condition = [
     },
     {
         title: "Poisoned",
-        icon: "deathcab",
+        icon: "poison-bottle",
         subtitle: "You are poisoned",
         description: "You are poisoned",
         reference: "PHB, pg. 292.",
@@ -168,7 +168,7 @@ data_condition = [
     },
     {
         title: "Stunned",
-        icon: "stunned",
+        icon: "knockout",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",

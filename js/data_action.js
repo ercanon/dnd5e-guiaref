@@ -93,7 +93,7 @@ data_action = [
     },
     {
         title: "Escape",
-        icon: "manacles",
+        icon: "breaking-chain",
         subtitle: "Escape a grapple",
         description: "Escape a grapple",
         reference: "PHB, pg. 195.",
@@ -118,7 +118,7 @@ data_action = [
     },
     {
         title: "Hide",
-        icon: "hood",
+        icon: "ninja-mask",
         subtitle: "Hide from a creature",
         description: "Attempt to hide from a creature",
         reference: "PHB, pg. 192.",
