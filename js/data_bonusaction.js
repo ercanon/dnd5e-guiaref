@@ -20,7 +20,7 @@ data_bonusaction = [
         bullets: [
             "Only usable if you're holding a light melee weapon in your second hand.",
             "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative."
+            "You don't add your ability modifier to the attack roll, unless that modifier is negative."
         ]
     },
     {
