@@ -8,7 +8,7 @@ data_bonusaction = [
         bullets: [
             "Only usable if you are not holding a heavy weapon or shield.",
             "It is replaced by <i>Offhand Attack</i> if you're holding another light melee weapon.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative."
+            "You don't add your ability modifier to the attack roll, unless that modifier is negative."
         ]
     },
     {
@@ -50,7 +50,7 @@ data_bonusaction = [
         title: "Use Object",
         icon: "snatch",
         subtitle: "Use object in inventory",
-        description: "Use an object from inventory or use its special abilities",
+        description: "Use a consumable from inventory.",
         reference: "PHB, pg. 193.",
         bullets: [
             
