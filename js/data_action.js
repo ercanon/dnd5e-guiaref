@@ -149,7 +149,7 @@ data_action = [
         bullets: [
             "Make a Wisdom (Medicine) check with DC 10",
             "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point and stays prone"
+            "A stable creature stays unconcious for 1d4 hours"
         ]
     },
     {
