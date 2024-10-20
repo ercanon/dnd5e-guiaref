@@ -64,8 +64,8 @@ data_condition = [
         reference: "PHB, pg. 290.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "The condition ends if your grappler is incapacitated or you are removed from the reach.",
+            "Use your Action to attempt to escape a grapple rolling a Strength (Athletics) check or a Dexterity (Acrobatics) check against your opponent’s Strength (Athletics) check. If you succeed, the condition ends."
         ]
     },
     {
@@ -211,5 +211,17 @@ data_condition = [
             "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
             "Once stable, you regain 1 hit point."
         ]
-    }
+    },
+    {
+        title: "Losing Concentration",
+        icon: "frontal-lobe",
+        subtitle: "You stopped concentrating",
+        description: "Some spells require you to maintain concentration in order to keep their magic active",
+        reference: "",
+        bullets: [
+            "You lose concentration on a spell if you cast another spell that requires concentration.",
+            "Whenever you take damage while you are concentrating on a spell, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher.",
+            "You lose concentration on a spell if you are incapacitated or if you die."
+        ]
+    },
 ]
